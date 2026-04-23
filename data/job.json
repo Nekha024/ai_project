@@ -1,0 +1,16 @@
+{
+  "job_title": "AI Developer",
+  "company": "TechCorp",
+  "location": "Remote",
+
+  "required_skills": ["Python", "Machine Learning"],
+  "preferred_skills": ["Deep Learning"],
+
+  "experience_required": 1,
+
+  "education_required": "MCA",
+
+  "job_type": "Full-time",
+
+  "description": "Looking for AI developer with ML experience"
+}

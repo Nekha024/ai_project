@@ -1,0 +1,16 @@
+{
+  "job_title": "string",
+  "company": "string",
+  "location": "string",
+
+  "required_skills": ["string"],
+  "preferred_skills": ["string"],
+
+  "experience_required": 0,
+
+  "education_required": "string",
+
+  "job_type": "Full-time | Part-time | Internship",
+
+  "description": "string"
+}

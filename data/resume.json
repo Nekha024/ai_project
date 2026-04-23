@@ -1,0 +1,18 @@
+{
+  "name": "John Doe",
+  "email": "john@example.com",
+  "skills": ["Python", "Machine Learning", "SQL"],
+  "experience_years": 2,
+  "experience": [
+    {
+      "role": "Software Developer",
+      "company": "ABC Company"
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech",
+      "field": "Computer Science"
+    }
+  ]
+}
