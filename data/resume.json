@@ -1,7 +1,7 @@
 {
   "name": "John Doe",
   "email": "john@example.com",
-  "skills": ["Python", "Machine Learning", "SQL"],
+  "skills": ["Python", "SQL"],
   "experience_years": 2,
   "experience": [
     {
