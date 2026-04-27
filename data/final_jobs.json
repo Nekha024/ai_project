@@ -1,0 +1,1375 @@
+[
+  {
+    "role_name": "5G Engineer",
+    "summary": "A 5G Engineer designs, deploys, and optimizes fifth-generation mobile networks to deliver ultra-fast data speeds, low latency, and massive device connectivity.",
+    "required_skills": [
+      "5G NR architecture and protocols",
+      "RF optimization and network planning",
+      "LTE/4G fundamentals (as a base)",
+      "Tools: TEMS",
+      "Atoll",
+      "NetAct"
+    ],
+    "education": [
+      "B.E/B.Tech in Electronics / Telecommunications"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "AI-based Power Systems Engineer",
+    "summary": "An AI-based Power Systems Engineer applies artificial intelligence and machine learning to optimize electrical power systems, improve efficiency, and predict failures.",
+    "required_skills": [
+      "Machine learning & deep learning",
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "Power systems engineering",
+      "Data analytics and forecasting"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical / Computer Science",
+      "AI/ML specialization preferred"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "AI/ML Engineer (Energy Systems)",
+    "summary": "An AI/ML Engineer in Energy Systems applies machine learning and artificial intelligence to optimize power generation, consumption, and grid management.",
+    "required_skills": [
+      "Machine learning (regression",
+      "classification",
+      "deep learning)",
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "Data analytics and time-series forecasting",
+      "Energy systems knowledge"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical / Computer Science",
+      "AI/ML specialization preferred"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "ASIC Design Engineer (Application",
+    "summary": "Specific Integrated Circuit) An ASIC Design Engineer develops custom-designed chips tailored for specific applications such as mobile processors, networking devices, and AI hardware.",
+    "required_skills": [
+      "HDL (Verilog/VHDL)",
+      "ASIC design flow knowledge",
+      "EDA tools (Cadence",
+      "Synopsys)",
+      "Digital and microelectronics fundamentals"
+    ],
+    "education": [
+      "B.E/B.Tech + M.Tech in Microelectronics/VLSI preferred"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Automation Consultant",
+    "summary": "An Automation Consultant provides expert solutions for industrial automation systems including PLC, SCADA, robotics, and control systems.",
+    "required_skills": [
+      "PLC",
+      "SCADA",
+      "DCS systems",
+      "Industrial automation design",
+      "Control systems and robotics basics",
+      "System integration knowledge"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical / Instrumentation / Automation"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Automotive Electrical Engineer",
+    "summary": "An Automotive Electrical Engineer designs, develops, and maintains electrical systems in vehicles, including wiring, lighting, control systems, and electronic modules.",
+    "required_skills": [
+      "Automotive electrical systems",
+      "CAN/LIN communication protocols",
+      "Wiring harness design tools",
+      "Diagnostics tools (OBD systems)"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical / Electronics / Automotive Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Autonomous Vehicle Engineer",
+    "summary": "An Autonomous Vehicle Engineer develops self-driving technologies that enable vehicles to perceive their environment, make decisions, and operate safely without human intervention.",
+    "required_skills": [
+      "Embedded systems and robotics",
+      "AI/ML (computer vision",
+      "deep learning)",
+      "Programming (Python",
+      "C++)",
+      "Sensor fusion and data processing",
+      "Control systems"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical / Electronics / Robotics / Computer Science",
+      "M.Tech in Robotics/AI (preferred)"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Engineer",
+    "summary": "A BMS Engineer designs and develops systems that monitor and manage battery performance, safety, and efficiency in electric vehicles and energy storage systems.",
+    "required_skills": [
+      "Battery technologies (Li-ion",
+      "solid-state basics)",
+      "Embedded systems and control algorithms",
+      "Data analysis and modeling",
+      "Safety systems and thermal management"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical / Electronics Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Building Automation Engineer",
+    "summary": "A Building Automation Engineer develops and manages intelligent building systems that automate lighting, HVAC, security, and energy management.",
+    "required_skills": [
+      "BMS platforms (Siemens",
+      "Honeywell",
+      "Schneider)",
+      "PLC/DDC programming",
+      "Networking and IoT basics",
+      "Energy management systems"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical / Instrumentation Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Certification Engineer (Electrical)",
+    "summary": "A Certification Engineer ensures that electrical products and systems comply with national and international regulatory standards before being approved for use or sale.",
+    "required_skills": [
+      "Knowledge of electrical safety standards",
+      "Documentation and compliance processes",
+      "Attention to detail",
+      "Analytical and regulatory understanding"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical / Electronics Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Charging Infrastructure Engineer",
+    "summary": "A Charging Infrastructure Engineer designs, installs, and manages EV charging systems and networks, ensuring efficient, safe, and scalable electric vehicle charging solutions.",
+    "required_skills": [
+      "Power systems and electrical design",
+      "EV charging standards (CCS",
+      "CHAdeMO",
+      "Type 2)",
+      "Load management and grid integration",
+      "IoT and smart systems"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Control Systems Software Engineer",
+    "summary": "A Control Systems Software Engineer develops software that controls and automates industrial systems such as power plants, manufacturing lines, and robotics using real-time control logic.",
+    "required_skills": [
+      "Control systems engineering",
+      "Programming (C",
+      "C++",
+      "Python",
+      "MATLAB)",
+      "PLC/DCS knowledge",
+      "Real-time system development"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical / Electronics / Control Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Data Engineer (Smart Grids)",
+    "summary": "A Data Engineer (Smart Grids) builds and manages data pipelines that collect, process, and analyze electrical grid data for monitoring and optimization.",
+    "required_skills": [
+      "Big data tools (Hadoop",
+      "Spark)",
+      "Python",
+      "SQL",
+      "IoT data processing",
+      "Cloud platforms (AWS",
+      "Azure",
+      "GCP)"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical / Computer Science / IT"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Defense / Space Scientist (Electrical)",
+    "summary": "A Defense or Space Scientist works on highly advanced electrical systems used in defense technologies, satellites, communication systems, and aerospace applications.",
+    "required_skills": [
+      "Advanced electronics and power systems",
+      "Signal processing and communication systems",
+      "Embedded systems and control engineering",
+      "Research and system design skills"
+    ],
+    "education": [
+      "B.E/B.Tech + M.Tech (Electrical/ECE/Instrumentation)",
+      "Selection through competitive exams and interviews"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Digital Twin Engineer",
+    "summary": "A Digital Twin Engineer creates virtual models of physical electrical systems to simulate, monitor, and optimize real-world operations in real time.",
+    "required_skills": [
+      "Digital twin platforms and simulation tools",
+      "IoT and sensor integration",
+      "Data analytics and modeling",
+      "Programming (Python",
+      "MATLAB)"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical / Mechanical / Computer Science"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "EV Design Engineer",
+    "summary": "An EV Design Engineer focuses on designing and developing electric vehicle systems including motors, batteries, powertrain, and charging systems.",
+    "required_skills": [
+      "EV powertrain systems",
+      "Electrical system integration",
+      "Simulation tools (MATLAB/Simulink)",
+      "Knowledge of charging standards"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical / Automotive Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "EV Infrastructure Specialist",
+    "summary": "An EV Infrastructure Specialist designs and manages electric vehicle charging networks and infrastructure to support large-scale EV adoption.",
+    "required_skills": [
+      "Power systems and distribution networks",
+      "EV charging technologies",
+      "Load balancing and grid integration",
+      "IoT-based monitoring systems"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Electrical Design Consultant",
+    "summary": "An Electrical Design Consultant provides expert-level design solutions for electrical systems in buildings, industries, and infrastructure projects on a freelance or contract basis.",
+    "required_skills": [
+      "Electrical system design expertise",
+      "AutoCAD / Revit / design software",
+      "Strong analytical and problem-solving skills",
+      "Knowledge of building and industrial electrical systems"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering"
+    ],
+    "experience": [
+      "5+ years of industry experience preferred"
+    ]
+  },
+  {
+    "role_name": "Electrical Design Engineer (Buildings)",
+    "summary": "An Electrical Design Engineer (Buildings) designs electrical systems for residential, commercial, and industrial buildings ensuring safety, efficiency, and compliance.",
+    "required_skills": [
+      "Electrical design and calculations",
+      "AutoCAD / Revit",
+      "Knowledge of building codes and safety standards",
+      "Attention to detail"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Electrical Engineer (Oil & Gas)",
+    "summary": "An Electrical Engineer in Oil & Gas is responsible for designing, operating, and maintaining electrical systems used in refineries, petrochemical plants, pipelines, and processing facilities.",
+    "required_skills": [
+      "Power systems engineering",
+      "Industrial electrical equipment knowledge",
+      "Safety and compliance awareness",
+      "Troubleshooting and maintenance"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Electrical Project Manager",
+    "summary": "An Electrical Project Manager is responsible for end-to-end management of electrical projects, including planning, execution, budgeting, and delivery.",
+    "required_skills": [
+      "Project management (planning",
+      "scheduling",
+      "budgeting)",
+      "Leadership and team management",
+      "Risk management",
+      "Electrical engineering fundamentals"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering",
+      "PMP certification preferred"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Electrical Safety Auditor",
+    "summary": "An Electrical Safety Auditor evaluates electrical installations and systems to ensure compliance with safety standards and prevents electrical hazards.",
+    "required_skills": [
+      "Electrical safety engineering",
+      "Risk assessment and hazard identification",
+      "Knowledge of safety standards",
+      "Inspection and auditing skills"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering",
+      "Safety certifications (NEBOSH/OSHA preferred)"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Electrical Safety Engineer",
+    "summary": "An Electrical Safety Engineer ensures that all electrical systems, installations, and operations are designed and maintained in a way that minimizes risk to people, equipment, and the environment.",
+    "required_skills": [
+      "Electrical safety engineering principles",
+      "Risk assessment and hazard analysis",
+      "Knowledge of protective devices (relays",
+      "breakers",
+      "fuses)",
+      "Strong understanding of power systems"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering",
+      "Safety certifications (NEBOSH, OSHA preferred)"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Electrical Simulation Engineer",
+    "summary": "An Electrical Simulation Engineer models and simulates electrical systems to predict performance, optimize design, and reduce real-world testing costs.",
+    "required_skills": [
+      "MATLAB/Simulink",
+      "PSCAD",
+      "ETAP",
+      "or similar tools",
+      "Electrical machine and power system knowledge",
+      "Numerical modeling and analysis"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering",
+      "M.Tech preferred for R&D roles"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Electrical Site Engineer",
+    "summary": "An Electrical Site Engineer manages on-site electrical installation, execution, and supervision activities during construction projects.",
+    "required_skills": [
+      "Site execution and supervision",
+      "Electrical systems installation",
+      "Problem-solving on-site",
+      "Communication and coordination"
+    ],
+    "education": [
+      "Diploma / B.E/B.Tech in Electrical Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Electrical Testing Engineer",
+    "summary": "An Electrical Testing Engineer is responsible for testing electrical equipment and systems to ensure proper functionality, safety, and compliance before commissioning or deployment.",
+    "required_skills": [
+      "Electrical testing procedures",
+      "Use of testing instruments (multimeter",
+      "megger",
+      "relay tester)",
+      "Troubleshooting and diagnostics",
+      "Understanding of power systems"
+    ],
+    "education": [
+      "Diploma / B.E/B.Tech in Electrical Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Embedded Systems Engineer",
+    "summary": "An Embedded Systems Engineer develops software and firmware for embedded devices that control hardware systems in real-time applications.",
+    "required_skills": [
+      "Embedded C/C++ programming",
+      "Microcontrollers & microprocessors",
+      "RTOS basics",
+      "Communication protocols (UART",
+      "SPI",
+      "I2C",
+      "CAN)"
+    ],
+    "education": [
+      "B.E/B.Tech in Electronics / Embedded Systems"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Energy Analytics Engineer",
+    "summary": "An Energy Analytics Engineer uses data science and analytics to optimize energy generation, distribution, and consumption patterns.",
+    "required_skills": [
+      "Data analytics (Python",
+      "SQL",
+      "Power BI)",
+      "Machine learning basics",
+      "Time-series forecasting",
+      "Energy systems understanding"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical / Computer Science / Data Science"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Energy Auditor",
+    "summary": "An Energy Auditor analyzes energy consumption in buildings and industries and recommends solutions to improve efficiency and reduce costs.",
+    "required_skills": [
+      "Energy management and auditing techniques",
+      "Data analysis and measurement tools",
+      "Electrical system knowledge",
+      "Report writing and documentation"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering",
+      "Certified Energy Auditor (CEA) preferred"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Engineering Manager (Electrical)",
+    "summary": "An Engineering Manager leads electrical engineering teams, ensuring technical excellence, innovation, and successful delivery of engineering solutions.",
+    "required_skills": [
+      "Leadership and team management",
+      "Strong electrical engineering expertise",
+      "Decision-making and problem-solving",
+      "Cross-functional coordination"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering",
+      "M.Tech preferred for senior roles"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Explosion Protection Engineer",
+    "summary": "An Explosion Protection Engineer designs and ensures electrical and instrumentation systems are safe to operate in explosive atmospheres, preventing ignition risks in hazardous industrial environments.",
+    "required_skills": [
+      "Explosion protection techniques",
+      "Hazardous area classification",
+      "Safety engineering and compliance",
+      "Risk assessment methodologies (HAZOP",
+      "HAZID)"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical / Instrumentation Engineering",
+      "Certification in hazardous area safety (preferred)"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "FPGA Engineer (Field Programmable",
+    "summary": "Gate Array) An FPGA Engineer designs and programs configurable hardware systems using FPGA devices for high-speed and real-time applications.",
+    "required_skills": [
+      "Verilog / VHDL",
+      "Digital design and logic circuits",
+      "FPGA tools (Xilinx Vivado",
+      "Intel Quartus)",
+      "Debugging using logic analyzers"
+    ],
+    "education": [
+      "B.E/B.Tech in Electronics / Electrical Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Fire Alarm System Engineer",
+    "summary": "A Fire Alarm System Engineer designs, installs, and maintains fire detection and alarm systems to ensure building safety and compliance with fire safety regulations.",
+    "required_skills": [
+      "Fire alarm system design",
+      "Electrical wiring and installation",
+      "Testing and troubleshooting",
+      "Knowledge of safety regulations"
+    ],
+    "education": [
+      "Diploma / B.E/B.Tech in Electrical / Electronics"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "HVAC Electrical Engineer",
+    "summary": "An HVAC Electrical Engineer designs, installs, and maintains the electrical and control systems that power Heating, Ventilation, and Air Conditioning (HVAC) systems in buildings.",
+    "required_skills": [
+      "HVAC systems understanding",
+      "Electrical control systems",
+      "BMS integration",
+      "AutoCAD / electrical design tools"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical / Mechanical Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Hardware Design Engineer",
+    "summary": "A Hardware Design Engineer is responsible for designing and developing physical electronic hardware systems, including circuit boards and components.",
+    "required_skills": [
+      "Circuit design and analysis",
+      "Component selection and datasheet understanding",
+      "Signal integrity basics",
+      "Simulation tools (LTspice",
+      "Proteus)"
+    ],
+    "education": [
+      "B.E/B.Tech in Electronics / Electrical Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Hazardous Area Engineer",
+    "summary": "A Hazardous Area Engineer ensures that electrical systems and equipment are safe for use in explosive or flammable environments such as oil rigs, refineries, and chemical plants.",
+    "required_skills": [
+      "Hazardous area classification",
+      "Explosion protection techniques",
+      "Safety engineering and risk analysis",
+      "Knowledge of international safety standards"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical / Instrumentation Engineering",
+      "Certification in hazardous area (preferred)"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "High Voltage Testing Engineer",
+    "summary": "A High Voltage Testing Engineer specializes in testing and validating high-voltage electrical equipment to ensure safe operation under extreme electrical stress conditions.",
+    "required_skills": [
+      "High-voltage engineering concepts",
+      "Electrical safety procedures",
+      "Testing equipment operation",
+      "Fault analysis and interpretation"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "IoT Engineer (Internet of Things)",
+    "summary": "An IoT Engineer designs and develops connected devices that communicate over networks, combining hardware, embedded systems, and cloud technologies.",
+    "required_skills": [
+      "Embedded systems + programming (C",
+      "Python)",
+      "Networking and communication protocols",
+      "Cloud platforms (AWS IoT",
+      "Azure IoT)",
+      "Sensor integration and hardware basics"
+    ],
+    "education": [
+      "B.E/B.Tech in Electronics / Computer Science"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Lecturer / Professor (Electrical",
+    "summary": "Engineering) A Lecturer or Professor teaches electrical engineering subjects, mentors students, and contributes to academic research and development.",
+    "required_skills": [
+      "Strong subject knowledge (power systems",
+      "electronics",
+      "control systems",
+      "etc.)",
+      "Communication and teaching skills",
+      "Research and academic writing",
+      "Mentoring abilities"
+    ],
+    "education": [
+      "M.Tech (minimum for Assistant Professor)",
+      "PhD required for Professor-level roles"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Lighting Design Engineer",
+    "summary": "A Lighting Design Engineer specializes in designing lighting systems that are functional, energy-efficient, and aesthetically pleasing for buildings and outdoor spaces.",
+    "required_skills": [
+      "Lighting design software (Dialux",
+      "Relux)",
+      "Knowledge of illumination engineering",
+      "Creativity and design sense",
+      "Energy efficiency concepts"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering or related field"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "MEP Engineer (Electrical)",
+    "summary": "An MEP (Mechanical, Electrical, Plumbing) Engineer - Electrical focuses on designing, coordinating, and executing electrical systems in buildings such as commercial complexes, hospitals, malls, and infrastructure projects.",
+    "required_skills": [
+      "Electrical design for buildings",
+      "AutoCAD / Revit MEP",
+      "Load calculations and system planning",
+      "Project coordination"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Network Planning Engineer",
+    "summary": "A Network Planning Engineer is responsible for designing and planning telecom networks to ensure optimal coverage, capacity, and performance.",
+    "required_skills": [
+      "Network design and optimization",
+      "Data analysis and forecasting",
+      "Telecom planning tools",
+      "Understanding of cellular technologies"
+    ],
+    "education": [
+      "B.E/B.Tech in Electronics / Telecommunications"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Offshore Electrical Engineer",
+    "summary": "An Offshore Electrical Engineer manages electrical systems on offshore platforms such as oil rigs and drilling units, ensuring continuous and safe operations in remote marine environments.",
+    "required_skills": [
+      "Offshore power systems",
+      "Marine electrical systems",
+      "Fault diagnosis and troubleshooting",
+      "Safety and emergency response"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering",
+      "Offshore safety certifications (preferred)"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Operations Manager (Electrical)",
+    "summary": "An Operations Manager (Electrical) ensures smooth and efficient operation of electrical systems, plants, or infrastructure facilities.",
+    "required_skills": [
+      "Operations management",
+      "Electrical maintenance knowledge",
+      "Problem-solving under pressure",
+      "Team leadership"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Optical Fiber Engineer",
+    "summary": "An Optical Fiber Engineer designs, installs, and maintains fiber optic communication systems used for high-speed data transmission.",
+    "required_skills": [
+      "Fiber optics principles",
+      "Splicing and cable installation",
+      "Testing tools (OTDR",
+      "fusion splicer)",
+      "Network troubleshooting"
+    ],
+    "education": [
+      "Diploma / B.E/B.Tech in Electronics / Electrical"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "PCB Design Engineer",
+    "summary": "A PCB Design Engineer creates printed circuit board layouts that connect and support electronic components in hardware systems.",
+    "required_skills": [
+      "PCB design tools (Altium Designer",
+      "KiCad",
+      "Eagle)",
+      "PCB layout techniques (multilayer boards",
+      "routing)",
+      "Knowledge of EMI/EMC standards",
+      "Attention to detail"
+    ],
+    "education": [
+      "B.E/B.Tech / Diploma in Electronics"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "PSU Engineer (Public Sector",
+    "summary": "Undertaking) A PSU Engineer works in government-owned organizations managing large-scale electrical infrastructure such as power generation, transmission, and industrial operations.",
+    "required_skills": [
+      "Power systems engineering",
+      "Project management",
+      "Electrical maintenance and design",
+      "Knowledge of safety and regulatory standards"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering",
+      "Selection through exams like GATE (commonly required)",
+      "Key PSUs",
+      "NTPC",
+      "Power Grid Corporation of India Limited",
+      "BHEL",
+      "ONGC"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Power Systems Engineer",
+    "summary": "A Power Systems Engineer is responsible for designing, analyzing, and optimizing electrical power systems including generation, transmission, and distribution networks to ensure reliable and efficient operation.",
+    "required_skills": [
+      "Power system analysis",
+      "Electrical network modeling",
+      "MATLAB/Simulink",
+      "ETAP",
+      "Strong analytical and problem-solving skills"
+    ],
+    "education": [
+      "B.Tech/B.E in Electrical Engineering",
+      "M.Tech (Power Systems) preferred"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Power Electronics Engineer",
+    "summary": "A Power Electronics Engineer designs and develops electronic circuits that control and convert electrical power in EVs and industrial systems.",
+    "required_skills": [
+      "Power electronics design",
+      "Circuit simulation (MATLAB",
+      "PLECS",
+      "LTspice)",
+      "Control systems and motor drives",
+      "Thermal management"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical / Power Electronics"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Power System Studies Consultant",
+    "summary": "A Power System Studies Consultant performs advanced analysis of electrical power systems to ensure stability, reliability, and efficiency of electrical networks.",
+    "required_skills": [
+      "Power system analysis",
+      "Simulation tools (ETAP",
+      "MATLAB",
+      "PSCAD)",
+      "Electrical network modeling",
+      "Strong analytical skills"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering",
+      "M.Tech (Power Systems) preferred"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Project Engineer (Electrical)",
+    "summary": "A Project Engineer manages the technical execution of electrical engineering projects, ensuring design, installation, testing, and commissioning are completed on time and within budget.",
+    "required_skills": [
+      "Electrical systems knowledge",
+      "Project coordination and planning",
+      "AutoCAD / technical drawing understanding",
+      "Communication and problem-solving"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Quality Control Engineer (Electrical)",
+    "summary": "A Quality Control Engineer ensures that electrical products, installations, and systems meet defined quality standards and specifications.",
+    "required_skills": [
+      "Quality assurance methodologies",
+      "Electrical system knowledge",
+      "Inspection and documentation skills",
+      "Problem-solving and analytical thinking"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "RF Engineer (Radio Frequency)",
+    "summary": "An RF Engineer designs and optimizes radio frequency systems used in wireless communication such as mobile networks, satellite communication, and broadcasting.",
+    "required_skills": [
+      "RF theory and antenna design",
+      "Signal propagation and analysis",
+      "RF tools (spectrum analyzers",
+      "network analyzers)",
+      "Knowledge of wireless standards"
+    ],
+    "education": [
+      "B.E/B.Tech in Electronics / Communication Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Regulatory Compliance Engineer",
+    "summary": "(Electrical) A Regulatory Compliance Engineer ensures that electrical systems, equipment, and projects comply with national and international laws, codes, and technical regulations.",
+    "required_skills": [
+      "Knowledge of electrical codes and regulations",
+      "Documentation and audit processes",
+      "Analytical and detail-oriented thinking",
+      "Understanding of safety and environmental standards"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering",
+      "Additional certification in compliance or safety preferred"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Reliability Engineer",
+    "summary": "A Reliability Engineer focuses on improving the performance, availability, and lifespan of electrical systems and equipment by minimizing failures and optimizing maintenance strategies.",
+    "required_skills": [
+      "Reliability engineering concepts (MTBF",
+      "MTTR)",
+      "Data analysis and predictive maintenance",
+      "Root Cause Analysis (RCA",
+      "FMEA)",
+      "Maintenance planning tools"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical / Mechanical Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Renewable Integration Engineer",
+    "summary": "A Renewable Integration Engineer focuses on integrating renewable energy sources like solar and wind into existing electrical grids efficiently and safely.",
+    "required_skills": [
+      "Power systems analysis",
+      "Renewable energy technologies",
+      "Energy storage systems",
+      "Simulation tools (MATLAB",
+      "ETAP)"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering",
+      "M.Tech in Power Systems preferred"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Research Scientist (Electrical)",
+    "summary": "A Research Scientist in Electrical Engineering works on advanced technologies, developing new theories, systems, and innovations in power systems, electronics, control systems, and emerging technologies.",
+    "required_skills": [
+      "Strong fundamentals in electrical engineering",
+      "Research methodology and technical writing",
+      "Simulation tools (MATLAB",
+      "Simulink",
+      "etc.)",
+      "Analytical and problem-solving skills"
+    ],
+    "education": [
+      "B.E/B.Tech + M.Tech (Electrical Engineering)",
+      "PhD preferred for senior roles"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Robotics Engineer (Electrical Focus)",
+    "summary": "A Robotics Engineer designs and develops intelligent robotic systems that combine electrical, mechanical, and software components for automation and AI-based applications.",
+    "required_skills": [
+      "Embedded systems and control systems",
+      "Sensor integration and automation",
+      "Basic AI/ML understanding",
+      "Programming (C/C++",
+      "Python)"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical / Robotics / Mechatronics"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Satellite Communication Engineer",
+    "summary": "A Satellite Communication Engineer develops and manages communication systems that use satellites for data transmission, broadcasting, and navigation.",
+    "required_skills": [
+      "RF and microwave engineering",
+      "Antenna systems",
+      "Signal processing",
+      "Satellite link design"
+    ],
+    "education": [
+      "B.E/B.Tech in Electronics / Communication Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Smart Grid Engineer",
+    "summary": "A Smart Grid Engineer develops advanced electrical grid systems using digital communication, automation, and data analytics to improve efficiency and reliability.",
+    "required_skills": [
+      "Power systems + IT integration",
+      "IoT and communication protocols",
+      "Data analytics and AI basics",
+      "SCADA and automation systems"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering",
+      "Knowledge of smart systems or data analytics preferred"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Smart Grid Engineer",
+    "summary": "A Smart Grid Engineer develops modern electrical grids that use digital communication, automation, and real-time monitoring to improve efficiency, reliability, and sustainability.",
+    "required_skills": [
+      "Power systems engineering",
+      "IoT and communication systems",
+      "Data analytics and automation",
+      "SCADA systems and smart metering"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering",
+      "Specialization in power systems or smart energy preferred"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Solar Energy Consultant",
+    "summary": "A Solar Energy Consultant provides expert guidance on designing, installing, and optimizing solar power systems for residential, commercial, and industrial clients.",
+    "required_skills": [
+      "Solar PV system design",
+      "Energy modeling tools (PVsyst",
+      "Helioscope)",
+      "Financial analysis (ROI",
+      "payback period)",
+      "Knowledge of renewable energy policies"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical / Renewable Energy"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Technical Director (Electrical)",
+    "summary": "A Technical Director provides strategic technical leadership, guiding engineering direction, innovation, and long-term technology planning in an organization.",
+    "required_skills": [
+      "Advanced electrical engineering expertise",
+      "Strategic thinking and leadership",
+      "Innovation and R&D experience",
+      "Decision-making at enterprise level"
+    ],
+    "education": [
+      "B.E/B.Tech + M.Tech/PhD preferred"
+    ],
+    "experience": [
+      "10-20+ years of industry experience"
+    ]
+  },
+  {
+    "role_name": "Telecom Engineer",
+    "summary": "A Telecom Engineer designs, installs, maintains, and optimizes communication systems including voice, data, and broadband networks.",
+    "required_skills": [
+      "Networking fundamentals (IP",
+      "routing",
+      "switching)",
+      "Telecom technologies (2G/3G/4G/5G",
+      "VoIP)",
+      "Troubleshooting and diagnostics",
+      "Basic RF knowledge"
+    ],
+    "education": [
+      "B.E/B.Tech in Electronics / Telecommunications"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "VLSI Design Engineer (Very Large",
+    "summary": "Scale Integration) A VLSI Design Engineer designs and develops integrated circuits (ICs) by integrating millions of transistors onto a single chip, used in processors, memory devices, and SoCs.",
+    "required_skills": [
+      "Verilog / VHDL (HDL programming)",
+      "Digital electronics and CMOS design",
+      "EDA tools (Cadence",
+      "Synopsys",
+      "Mentor Graphics)",
+      "Static Timing Analysis (STA)"
+    ],
+    "education": [
+      "B.E/B.Tech (Electronics) + M.Tech in VLSI preferred"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Wireless Communication Engineer",
+    "summary": "A Wireless Communication Engineer develops and manages wireless systems that enable communication over radio frequencies, including mobile networks and IoT systems.",
+    "required_skills": [
+      "Wireless communication principles",
+      "Signal processing basics",
+      "Networking and RF fundamentals",
+      "Protocols (LTE",
+      "5G",
+      "Wi-Fi)"
+    ],
+    "education": [
+      "B.E/B.Tech in Electronics / Communication Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Automation Engineer",
+    "summary": "An Automation Engineer designs and implements automated systems to improve efficiency, productivity, and safety in industrial operations.",
+    "required_skills": [
+      "PLC",
+      "SCADA",
+      "robotics",
+      "Industrial automation design",
+      "Problem-solving and system integration",
+      "Programming skills (Python",
+      "C",
+      "etc. - optional advantage)"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical / Mechatronics / Automation"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Commissioning Engineer",
+    "summary": "A Commissioning Engineer is responsible for testing, validating, and bringing electrical systems and equipment into operational condition in new or upgraded power plants.",
+    "required_skills": [
+      "Testing and validation",
+      "Electrical system understanding",
+      "Problem-solving and troubleshooting",
+      "Knowledge of standards like IEC"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "DCS Engineer (Distributed Control System)",
+    "summary": "A DCS Engineer is responsible for designing, implementing, and maintaining distributed control systems used in large-scale industrial processes.",
+    "required_skills": [
+      "DCS platforms (Honeywell",
+      "ABB",
+      "Yokogawa",
+      "Emerson)",
+      "Process control engineering",
+      "System integration",
+      "Troubleshooting"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical / Instrumentation Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Distribution Engineer",
+    "summary": "Handles the design and operation of electrical distribution systems delivering power to end-users.",
+    "required_skills": [
+      "Distribution system planning",
+      "GIS tools",
+      "Load analysis"
+    ],
+    "education": [
+      "B.Tech/B.E in Electrical Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Electrical Design Engineer (Power)",
+    "summary": "Designs electrical systems for power plants, substations, and industrial projects, ensuring compliance with standards and project requirements.",
+    "required_skills": [
+      "AutoCAD",
+      "EPLAN",
+      "Electrical design calculations",
+      "Knowledge of standards and codes"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Electrical Maintenance Engineer",
+    "summary": "An Electrical Maintenance Engineer ensures the reliability, safety, and continuous operation of electrical systems and equipment in industrial facilities through preventive and corrective maintenance.",
+    "required_skills": [
+      "Troubleshooting and fault diagnosis",
+      "Knowledge of motors",
+      "drives (VFDs)",
+      "and control panels",
+      "Maintenance planning and execution",
+      "Basic PLC and automation understanding"
+    ],
+    "education": [
+      "Diploma / B.E / B.Tech in Electrical Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Electronics Engineer",
+    "summary": "An Electronics Engineer designs, develops, tests, and maintains electronic circuits and systems used in devices ranging from consumer electronics to industrial equipment.",
+    "required_skills": [
+      "Analog & digital electronics",
+      "Circuit simulation (Multisim",
+      "LTspice)",
+      "Oscilloscope",
+      "multimeter usage",
+      "Soldering and prototyping"
+    ],
+    "education": [
+      "B.E/B.Tech in Electronics / Electrical Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Energy Storage Engineer (Battery Systems)",
+    "summary": "An Energy Storage Engineer focuses on designing and managing battery systems used for storing energy in renewable and grid applications.",
+    "required_skills": [
+      "Battery technologies and BMS design",
+      "Power electronics",
+      "Thermal management",
+      "Simulation tools (MATLAB/Simulink)"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical / Electronics Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Equipment Engineer",
+    "summary": "An Equipment Engineer focuses on the performance, reliability, and optimization of specific industrial equipment, ensuring minimal downtime and maximum efficiency.",
+    "required_skills": [
+      "Equipment diagnostics and reliability engineering",
+      "Root cause analysis (RCA)",
+      "Preventive maintenance strategies",
+      "Technical documentation"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical / Electronics Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Grid Operations Engineer",
+    "summary": "Monitors and controls the power grid in real-time to ensure stable and continuous electricity supply.",
+    "required_skills": [
+      "SCADA systems",
+      "Real-time monitoring",
+      "Decision-making under pressure"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Industrial Electrical Engineer",
+    "summary": "An Industrial Electrical Engineer designs, develops, and optimizes electrical systems used in manufacturing and industrial processes to improve productivity and efficiency.",
+    "required_skills": [
+      "Industrial automation (PLC",
+      "SCADA)",
+      "Electrical system design",
+      "Process understanding",
+      "Energy management"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Instrumentation & Control Engineer",
+    "summary": "An Instrumentation & Control Engineer manages measurement and control systems to ensure accurate monitoring and efficient operation of industrial processes.",
+    "required_skills": [
+      "Process instrumentation",
+      "Control systems (PID tuning)",
+      "Calibration techniques",
+      "Field instrumentation knowledge"
+    ],
+    "education": [
+      "B.E/B.Tech in Instrumentation / Electrical / Electronics"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Plant Electrical Engineer",
+    "summary": "A Plant Electrical Engineer is responsible for managing the overall electrical infrastructure of an industrial plant, ensuring smooth operations, safety, and efficiency.",
+    "required_skills": [
+      "Power distribution systems",
+      "Team management and leadership",
+      "Energy efficiency optimization",
+      "Safety and compliance management"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering"
+    ],
+    "experience": [
+      "Experience in plant operations preferred"
+    ]
+  },
+  {
+    "role_name": "PLC Engineer (Programmable Logic Controller)",
+    "summary": "A PLC Engineer designs, programs, and maintains automation systems using PLCs to control industrial machinery and processes.",
+    "required_skills": [
+      "PLC platforms (Siemens",
+      "Allen-Bradley",
+      "Mitsubishi)",
+      "Electrical control systems",
+      "Troubleshooting and debugging",
+      "Industrial communication protocols (Modbus",
+      "Profibus",
+      "Ethernet/IP)"
+    ],
+    "education": [
+      "Diploma/B.E/B.Tech in Electrical / Electronics / Instrumentation"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Power Plant Engineer",
+    "summary": "Responsible for the operation, performance optimization, and reliability of power generation systems.",
+    "required_skills": [
+      "Power plant operations knowledge",
+      "Electrical systems troubleshooting",
+      "SCADA/DCS systems",
+      "Data analysis"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Power Systems Engineer",
+    "summary": "A Power Systems Engineer is responsible for designing, analyzing, and optimizing electrical power systems including generation, transmission, and distribution networks to ensure reliable and efficient operation.",
+    "required_skills": [
+      "Power system analysis",
+      "Electrical network modeling",
+      "MATLAB/Simulink",
+      "ETAP",
+      "Strong analytical and problem-solving skills"
+    ],
+    "education": [
+      "B.Tech/B.E in Electrical Engineering",
+      "M.Tech (Power Systems) preferred"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Protection & Relay Engineer",
+    "summary": "Designs and maintains protection systems that safeguard electrical networks from faults and failures.",
+    "required_skills": [
+      "Relay coordination",
+      "Fault analysis",
+      "Knowledge of protection devices"
+    ],
+    "education": [
+      "B.Tech in Electrical Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "SCADA Engineer (Supervisory Control and Data Acquisition)",
+    "summary": "A SCADA Engineer develops and manages supervisory control systems for real-time monitoring and control of industrial processes.",
+    "required_skills": [
+      "SCADA platforms (WinCC",
+      "Wonderware",
+      "Ignition)",
+      "HMI design",
+      "Networking basics",
+      "Data visualization"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical / Electronics / Instrumentation"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Shift Engineer (Power Plant)",
+    "summary": "Supervises plant operations during assigned shifts, ensuring safe and continuous power generation.",
+    "required_skills": [
+      "Real-time decision making",
+      "Leadership skills",
+      "SCADA/DCS operation",
+      "Problem-solving"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Solar PV Design Engineer",
+    "summary": "A Solar PV Design Engineer is responsible for designing efficient and cost-effective solar power systems for residential, commercial, and utility-scale projects.",
+    "required_skills": [
+      "PV system design tools (PVsyst",
+      "Helioscope)",
+      "AutoCAD and electrical design",
+      "Knowledge of solar components (panels",
+      "inverters",
+      "batteries)",
+      "Energy yield analysis"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical / Renewable Energy",
+      "Solar certifications (preferred)"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Substation Engineer",
+    "summary": "Responsible for the design, installation, operation, and maintenance of electrical substations.",
+    "required_skills": [
+      "Substation automation systems",
+      "Protection schemes",
+      "SCADA systems"
+    ],
+    "education": [
+      "B.Tech in Electrical Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Transmission Line Engineer",
+    "summary": "Designs and manages high-voltage transmission lines to ensure efficient electricity transfer over long distances.",
+    "required_skills": [
+      "High-voltage engineering",
+      "Structural basics for towers",
+      "PLS-CADD software"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical Engineering"
+    ],
+    "experience": []
+  },
+  {
+    "role_name": "Wind Energy Engineer",
+    "summary": "A Wind Energy Engineer designs, analyzes, and optimizes wind power systems, including turbine performance and wind farm layouts.",
+    "required_skills": [
+      "Wind modeling software (WAsP",
+      "WindPRO)",
+      "Aerodynamics basics",
+      "Data analysis and forecasting",
+      "SCADA systems"
+    ],
+    "education": [
+      "B.E/B.Tech in Electrical / Mechanical Engineering"
+    ],
+    "experience": []
+  }
+]

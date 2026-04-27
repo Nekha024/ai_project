@@ -134,5 +134,5 @@ Final Candidate Score: 65.0%
 
 Nekha A
 =======
-Nekha A
+
 
