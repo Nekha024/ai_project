@@ -1,4 +1,3 @@
-import fitz  # PyMuPDF
 import re
 import json
 import spacy
@@ -19,15 +18,29 @@ SECTION_KEYWORDS = {
 }
 
 # -------------------------------
-# 2. EXTRACT TEXT FROM PDF
+# 2. SAMPLE RESUME TEXT
 # -------------------------------
-def extract_text_from_pdf(pdf_path):
-    doc = fitz.open(pdf_path)
-    text = ""
-    for page in doc:
-        text += page.get_text()
-    return text
+SAMPLE_RESUME = """
+John Doe
+Email: john.doe@email.com
 
+Education
+B.Tech in Computer Science, XYZ University, 2022
+
+Skills
+Python, Java, SQL, Machine Learning
+
+Experience
+Software Intern at ABC Company
+Developed web applications using Python
+
+Projects
+Built a resume parser using NLP
+Created a chatbot using machine learning
+
+Certifications
+Certified Python Developer
+"""
 
 # -------------------------------
 # 3. CLEAN TEXT
@@ -55,14 +68,8 @@ def detect_heading(line):
 # 5. NLP-BASED CLASSIFICATION
 # -------------------------------
 def classify_line_nlp(line):
-    """
-    Classify content when heading is missing
-    """
-    doc = nlp(line)
-
     text = line.lower()
 
-    # Simple NLP + keyword hybrid
     if any(word in text for word in ["python", "java", "sql", "machine learning"]):
         return "skills"
 
@@ -96,14 +103,14 @@ def segment_resume(text):
         if not line:
             continue
 
-        # Step 1: Try heading detection
+        # Step 1: Heading detection
         detected = detect_heading(line)
 
         if detected:
             current_section = detected
             continue
 
-        # Step 2: If no heading, classify content
+        # Step 2: NLP classification
         predicted = classify_line_nlp(line)
 
         if current_section == "unknown":
@@ -117,7 +124,7 @@ def segment_resume(text):
 # -------------------------------
 # 7. SAVE JSON
 # -------------------------------
-def save_to_json(data, filename="data/resumes/nlp_resume.json"):
+def save_to_json(data, filename="data/outputs/output.json"):
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4)
 
@@ -125,10 +132,7 @@ def save_to_json(data, filename="data/resumes/nlp_resume.json"):
 # -------------------------------
 # 8. MAIN
 # -------------------------------
-def process_resume(pdf_path):
-    print("📄 Extracting text...")
-    text = extract_text_from_pdf(pdf_path)
-
+def process_resume_text(text):
     print("🧠 Segmenting intelligently...")
     sections = segment_resume(text)
 
@@ -142,5 +146,4 @@ def process_resume(pdf_path):
 # 9. RUN
 # -------------------------------
 if __name__ == "__main__":
-    pdf_file = "data/resumes/resume.pdf" 
-    process_resume(pdf_file)
+    process_resume_text(SAMPLE_RESUME)

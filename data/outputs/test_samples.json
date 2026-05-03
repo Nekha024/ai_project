@@ -1,0 +1,14 @@
+[
+  {
+    "text": "SKILLS\nPython\nEXPERIENCE\nWorked at ABC",
+    "expected": ["skills", "experience"]
+  },
+  {
+    "text": "EDUCATION\nB.Tech\nPROJECTS\nBuilt app",
+    "expected": ["education", "projects"]
+  },
+  {
+    "text": "CERTIFICATIONS\nAWS Certified\nSKILLS\nJava",
+    "expected": ["certifications", "skills"]
+  }
+]

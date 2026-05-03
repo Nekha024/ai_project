@@ -1,0 +1,23 @@
+{
+    "unknown": [
+        "John Doe",
+        "Email: john.doe@email.com"
+    ],
+    "education": [
+        "B.Tech in Computer Science, XYZ University, 2022"
+    ],
+    "skills": [
+        "Python, Java, SQL, Machine Learning"
+    ],
+    "experience": [
+        "Software Intern at ABC Company",
+        "Developed web applications using Python"
+    ],
+    "projects": [
+        "Built a resume parser using NLP",
+        "Created a chatbot using machine learning"
+    ],
+    "certifications": [
+        "Certified Python Developer"
+    ]
+}
