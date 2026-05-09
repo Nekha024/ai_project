@@ -1,0 +1,182 @@
+Day 15 – Fairness, Normalization & Bias Reduction
+
+Title:
+Fairness & Bias Reduction Engine – Zecpath AI
+
+--------------------------------------------------
+
+OBJECTIVE
+
+The objective of this module is to improve fairness and consistency in ATS-based resume evaluation by:
+
+- Normalizing resume content into a standard format
+- Reducing over-dependence on keyword matching
+- Applying score normalization across candidates
+- Masking sensitive personal attributes
+- Supporting fair and explainable candidate evaluation
+
+--------------------------------------------------
+
+MODULES IMPLEMENTED
+
+1. Fair Scoring Engine
+
+File:
+ats_engine/fairness_engine.py
+
+Features:
+- Score normalization
+- Sensitive data masking
+- Keyword bias reduction
+- Fair score generation
+
+Key Functions:
+
+normalize_scores()
+Applies min-max normalization across candidate scores.
+
+mask_sensitive_data()
+Masks sensitive attributes such as:
+- Name
+- Gender
+- Age
+- Photo
+- Location
+
+reduce_keyword_bias()
+Balances semantic similarity with keyword matching.
+
+generate_fair_score()
+Generates a fairness-aware score using:
+- Skill score
+- Semantic similarity score
+
+--------------------------------------------------
+
+2. Resume Normalization
+
+File:
+parsers/normalization.py
+
+Features:
+- Lowercase conversion
+- Removal of special characters
+- Space normalization
+- Standardized section headings
+
+Example Heading Conversion:
+
+Professional Experience → Experience
+Work Experience → Experience
+Academic Background → Education
+Skill Set → Skills
+
+--------------------------------------------------
+
+FAIRNESS TECHNIQUES USED
+
+1. Resume Standardization
+
+All resumes are converted into a common structure before evaluation.
+
+Benefits:
+- Reduces formatting bias
+- Improves consistency
+- Helps semantic matching
+
+--------------------------------------------------
+
+2. Bias Reduction
+
+Sensitive personal attributes are masked before scoring.
+
+Masked Fields:
+- Name
+- Gender
+- Age
+- Photo
+- Location
+
+Benefits:
+- Reduces demographic bias
+- Encourages skill-based evaluation
+- Improves fairness
+
+--------------------------------------------------
+
+3. Semantic Weighting
+
+Instead of relying only on keyword frequency, the system blends:
+- Keyword skill score
+- Semantic similarity score
+
+Formula:
+
+Fair Score =
+(0.6 × Semantic Score)
++
+(0.4 × Skill Score)
+
+Benefits:
+- Handles synonyms
+- Improves contextual understanding
+- Reduces keyword stuffing advantage
+
+--------------------------------------------------
+
+STRUCTURED OUTPUT EXAMPLE
+
+{
+  "candidate_id": "C123",
+  "final_score": 82,
+  "normalized_score": 78.5,
+  "fair_score": 80.2,
+  "masked_profile": {
+    "name": "MASKED",
+    "gender": "MASKED",
+    "location": "MASKED"
+  }
+}
+
+--------------------------------------------------
+
+ADVANTAGES
+
+- Fair candidate evaluation
+- Transparent scoring
+- Reduced recruiter bias
+- Standardized resume processing
+- Better semantic understanding
+
+--------------------------------------------------
+
+LIMITATIONS
+
+- Initial version uses fixed fairness rules
+- Semantic models may still contain hidden bias
+- Resume extraction quality affects fairness
+
+--------------------------------------------------
+
+FUTURE IMPROVEMENTS
+
+- AI-based bias detection
+- Adaptive fairness tuning
+- Recruiter feedback integration
+- Cross-language fairness support
+- Domain-specific fairness optimization
+
+--------------------------------------------------
+
+DELIVERABLES COMPLETED
+
+1. Fair scoring improvements
+2. Resume normalization logic
+3. Bias reduction logic
+4. Fairness documentation
+
+--------------------------------------------------
+
+CONCLUSION
+
+The Fairness & Bias Reduction module enhances the ATS system by ensuring more transparent, standardized, and unbiased candidate evaluation. This improves recruiter trust and supports ethical AI-based hiring workflows.
