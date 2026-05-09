@@ -1,0 +1,29 @@
+SEMANTIC MATCHING ENGINE REPORT
+================================
+
+Objective:
+Implemented semantic resume-to-job matching using transformer embeddings.
+
+Model Used:
+- all-MiniLM-L6-v2
+
+Features Implemented:
+- Skills similarity matching
+- Experience similarity matching
+- Project similarity matching
+- Weighted final semantic score
+- Match classification (Strong / Moderate / Weak)
+
+Observations:
+- Semantic matching captures contextual meaning better than keyword matching
+- Similar job roles receive higher similarity scores
+- System performs well for technical job descriptions
+
+Limitations:
+- Resume section segmentation affects semantic quality
+- Unstructured resumes reduce matching accuracy
+
+Future Improvements:
+- Improve resume segmentation using advanced NLP
+- Fine-tune embeddings on hiring datasets
+- Add recruiter feedback loop

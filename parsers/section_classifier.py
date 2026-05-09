@@ -10,11 +10,39 @@ nlp = spacy.load("en_core_web_sm")
 # 1. SECTION KEYWORDS
 # -------------------------------
 SECTION_KEYWORDS = {
-    "skills": ["skills", "technical skills", "core competencies"],
-    "experience": ["experience", "work experience", "professional experience", "employment history"],
-    "education": ["education", "academic background", "qualifications"],
-    "projects": ["projects"],
-    "certifications": ["certifications", "licenses"]
+    "skills": [
+        "skills",
+        "technical skills",
+        "core competencies"
+    ],
+
+    "experience": [
+        "experience",
+        "work experience",
+        "professional experience",
+        "employment history"
+    ],
+
+    "education": [
+        "education",
+        "academic background",
+        "qualifications"
+    ],
+
+    "projects": [
+        "projects"
+    ],
+
+    "certifications": [
+        "certifications",
+        "licenses"
+    ],
+
+    "summary": [
+        "summary",
+        "profile summary",
+        "objective"
+    ]
 }
 
 # -------------------------------
@@ -59,7 +87,7 @@ def detect_heading(line):
 
     for section, keywords in SECTION_KEYWORDS.items():
         for kw in keywords:
-            if kw == line_lower:
+            if kw in line_lower:
                 return section
     return None
 
@@ -92,31 +120,38 @@ def classify_line_nlp(line):
 # 6. SEGMENT RESUME (SMART)
 # -------------------------------
 def segment_resume(text):
-    sections = defaultdict(list)
-    current_section = "unknown"
 
-    lines = text.split("\n")
+    sections = defaultdict(list)
+
+    lines = re.split(
+    r'(?=\b(?:skills|technical skills|experience|professional experience|education|projects|certifications|summary|profile summary)\b)',
+    text,
+    flags=re.IGNORECASE
+)
 
     for raw_line in lines:
+
         line = clean_line(raw_line)
 
         if not line:
             continue
 
-        # Step 1: Heading detection
+        # Step 1: Try heading detection
         detected = detect_heading(line)
 
         if detected:
-            current_section = detected
+            sections[detected].append(line)
             continue
 
         # Step 2: NLP classification
         predicted = classify_line_nlp(line)
 
-        if current_section == "unknown":
-            current_section = predicted
+        # Step 3: Store directly in predicted section
+        if predicted != "unknown":
+            sections[predicted].append(line)
 
-        sections[current_section].append(line)
+        else:
+            sections["other"].append(line)
 
     return dict(sections)
 
