@@ -1,0 +1,95 @@
+ATS API Specification – Zecpath AI
+
+Base URL:
+https://api.zecpath.ai/v1/
+
+--------------------------------------------------
+
+1. Resume Upload API
+
+Endpoint:
+POST /resume/upload
+
+Request:
+multipart/form-data
+
+{
+  "file": "resume.pdf",
+  "job_id": "J123",
+  "candidate_id": "C123"
+}
+
+Response:
+{
+  "status": "success",
+  "message": "Resume uploaded successfully",
+  "resume_id": "R456"
+}
+
+--------------------------------------------------
+
+2. Resume Parsing API
+
+Endpoint:
+POST /resume/parse
+
+Request:
+{
+  "resume_id": "R456"
+}
+
+Response:
+{
+  "candidate_id": "C123",
+  "parsed_profile": {
+    "skills": ["Python", "Django"],
+    "experience": [],
+    "education": []
+  },
+  "status": "completed"
+}
+
+--------------------------------------------------
+
+3. ATS Scoring API
+
+Endpoint:
+POST /ats/score
+
+Request:
+{
+  "candidate_id": "C123",
+  "job_id": "J123"
+}
+
+Response:
+{
+  "candidate_id": "C123",
+  "final_score": 86.5,
+  "breakdown": {
+    "skills": 90,
+    "experience": 85,
+    "education": 80,
+    "semantic": 88
+  }
+}
+
+--------------------------------------------------
+
+4. Shortlisting API
+
+Endpoint:
+POST /ats/shortlist
+
+Request:
+{
+  "job_id": "J123"
+}
+
+Response:
+{
+  "job_id": "J123",
+  "total_candidates": 50,
+  "shortlisted": 20
+}
+

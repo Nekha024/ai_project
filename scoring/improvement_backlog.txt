@@ -1,0 +1,19 @@
+ATS Improvement Backlog
+
+HIGH PRIORITY
+--------------
+- Improve non-tech role understanding
+- Enhance soft skill extraction
+- Refine role similarity mapping
+
+MEDIUM PRIORITY
+----------------
+- Better internship parsing
+- Improve education relevance scoring
+- Add domain-specific embeddings
+
+LOW PRIORITY
+-------------
+- Improve recruiter dashboard UI
+- Faster API response times
+- Enhance logging and monitoring

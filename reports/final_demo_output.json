@@ -1,0 +1,27 @@
+{
+  "job_id": "J101",
+
+  "results": [
+
+    {
+      "candidate_id": "C1",
+      "final_score": 87,
+      "rank": 1,
+      "status": "Shortlisted"
+    },
+
+    {
+      "candidate_id": "C3",
+      "final_score": 82,
+      "rank": 2,
+      "status": "Shortlisted"
+    },
+
+    {
+      "candidate_id": "C2",
+      "final_score": 68,
+      "rank": 3,
+      "status": "Review"
+    }
+  ]
+}

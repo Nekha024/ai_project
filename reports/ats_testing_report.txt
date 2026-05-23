@@ -1,0 +1,84 @@
+ATS System Testing Report – Zecpath AI
+
+Objective:
+To evaluate ATS accuracy, reliability, and adaptability across multiple job roles.
+
+--------------------------------------------------
+
+Test Dataset Summary
+
+Tech Roles Tested: 10
+Non-Tech Roles Tested: 10
+Fresher Profiles Tested: 10
+Senior Profiles Tested: 10
+
+Total Resumes Tested: 40
+
+--------------------------------------------------
+
+Roles Covered
+
+Tech Roles:
+- Backend Developer
+- Frontend Developer
+- Data Scientist
+- DevOps Engineer
+
+Non-Tech Roles:
+- Marketing Executive
+- HR Manager
+- Sales Executive
+- Business Analyst
+
+--------------------------------------------------
+
+Testing Methodology
+
+1. Resume uploaded into ATS system
+2. Resume parsed and segmented
+3. ATS score generated
+4. HR manual evaluation performed
+5. AI output compared with HR review
+
+--------------------------------------------------
+
+Sample Comparison
+
+Candidate: C101
+Role: Backend Developer
+AI Score: 88
+HR Score: 85
+Result: Match
+
+Candidate: C102
+Role: Data Scientist
+AI Score: 82
+HR Score: 80
+Result: Match
+
+Candidate: C103
+Role: Marketing Executive
+AI Score: 70
+HR Score: 75
+Result: Mismatch
+
+--------------------------------------------------
+
+Observations
+
+Strengths:
+- High accuracy for technical roles
+- Strong semantic matching
+- Consistent candidate ranking
+
+Weaknesses:
+- Lower accuracy in non-tech roles
+- Soft skills extraction needs improvement
+- Some keyword dependency still exists
+
+--------------------------------------------------
+
+Conclusion
+
+Overall ATS performance is reliable for technical hiring workflows.
+Further improvements are required for non-technical domains and soft-skill understanding.

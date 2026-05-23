@@ -1,0 +1,45 @@
+ATS API Integration Flow – Zecpath AI
+
+Frontend → Upload Resume
+↓
+Backend → Call /resume/upload
+↓
+Backend → Call /resume/parse
+↓
+Backend → Call /ats/score
+↓
+Backend → Call /ats/shortlist
+↓
+Frontend → Display Results
+
+--------------------------------------------------
+
+Async Flow
+
+Resume Upload
+↓
+Job Queue (Redis / Kafka)
+↓
+Worker Service
+↓
+Store Results in Database
+↓
+Webhook / Polling API Response
+
+--------------------------------------------------
+
+Logging Standards
+
+INFO → Normal operations
+WARNING → Minor issues
+ERROR → Failures
+DEBUG → Development logs
+
+--------------------------------------------------
+
+Error Codes
+
+INVALID_INPUT
+NOT_FOUND
+PROCESSING_ERR
+SERVER_ERROR

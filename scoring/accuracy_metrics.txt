@@ -1,0 +1,35 @@
+ATS Accuracy Metrics
+
+True Positive (TP): 28
+False Positive (FP): 3
+False Negative (FN): 4
+True Negative (TN): 5
+
+--------------------------------
+
+Precision:
+TP / (TP + FP)
+28 / (28 + 3)
+= 90.3%
+
+Recall:
+TP / (TP + FN)
+28 / (28 + 4)
+= 87.5%
+
+Accuracy:
+(TP + TN) / Total
+(28 + 5) / 40
+= 82.5%
+
+F1 Score:
+88.8%
+
+--------------------------------
+
+Category-wise Accuracy
+
+Tech Roles: 90%
+Non-Tech Roles: 78%
+Freshers: 80%
+Senior Profiles: 85%

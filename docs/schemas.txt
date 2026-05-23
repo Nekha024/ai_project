@@ -1,0 +1,31 @@
+Candidate Schema
+
+{
+  "candidate_id": "C123",
+  "resume_id": "R456",
+  "skills": ["Python", "Django"],
+  "experience": [],
+  "education": []
+}
+
+--------------------------------------------------
+
+Job Schema
+
+{
+  "job_id": "J123",
+  "job_title": "Backend Developer",
+  "required_skills": ["Python", "Django"],
+  "experience_required": 3
+}
+
+--------------------------------------------------
+
+Score Schema
+
+{
+  "candidate_id": "C123",
+  "job_id": "J123",
+  "final_score": 86.5,
+  "status": "Shortlisted"
+}

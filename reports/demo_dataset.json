@@ -1,0 +1,50 @@
+{
+  "job_description": {
+    "job_id": "J101",
+    "job_title": "Backend Developer",
+    "required_skills": [
+      "Python",
+      "Django",
+      "REST API"
+    ],
+    "experience_required": 2,
+    "education_required": "B.Tech"
+  },
+
+  "candidates": [
+    {
+      "candidate_id": "C1",
+      "skills": [
+        "Python",
+        "Django",
+        "SQL"
+      ],
+      "experience_score": 85,
+      "education_score": 80,
+      "semantic_score": 88
+    },
+
+    {
+      "candidate_id": "C2",
+      "skills": [
+        "Java",
+        "Spring"
+      ],
+      "experience_score": 70,
+      "education_score": 75,
+      "semantic_score": 65
+    },
+
+    {
+      "candidate_id": "C3",
+      "skills": [
+        "Python",
+        "Flask",
+        "API"
+      ],
+      "experience_score": 80,
+      "education_score": 78,
+      "semantic_score": 82
+    }
+  ]
+}
