@@ -1,0 +1,23 @@
+[
+  {
+    "question_id": "Q1",
+    "text": {
+      "en": "Can you introduce yourself?",
+      "hi": "क्या आप अपना परिचय दे सकते हैं?",
+      "ml": "നിങ്ങളെക്കുറിച്ച് പരിചയപ്പെടുത്താമോ?"
+    },
+    "category": "introduction",
+    "expected_answer_type": "text",
+    "mandatory": true,
+    "importance": 5,
+    "follow_up": [
+      "Can you highlight your strengths?",
+      "What motivates you?"
+    ],
+    "evaluation_criteria": [
+      "clarity",
+      "confidence",
+      "communication"
+    ]
+  }
+]
