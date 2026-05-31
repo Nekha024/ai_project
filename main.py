@@ -28,6 +28,10 @@ from parsers.normalization import (
 )
 
 
+from screening_ai.eligibility_engine import (
+    evaluate_candidate
+)
+
 # -------------------------------
 # Load JSON
 # -------------------------------
@@ -240,7 +244,58 @@ def main():
         )
     )
 
+    # 🔹 Step 9: Eligibility Decision Engine
 
+    print("\nELIGIBILITY RESULT:\n")
+
+    candidate_for_screening = {
+
+        "candidate_id": "C123",
+
+        "final_score": ats_result["final_score"],
+
+        "skills": [
+            "Python",
+            "Django"
+        ],
+
+        "total_experience": 3,
+
+        "location": "Bangalore",
+
+        "available": True
+    }
+
+    rules = {
+
+        "min_ats_score": 75,
+
+        "mandatory_skills": [
+            "Python"
+        ],
+
+        "min_experience": 2,
+
+        "max_experience": 5,
+
+        "allowed_locations": [
+            "Bangalore"
+        ],
+
+        "availability_required": True
+    }
+
+    eligibility_result = evaluate_candidate(
+        candidate_for_screening,
+        rules
+    )
+
+    print(
+        json.dumps(
+            eligibility_result,
+            indent=2
+        )
+    )
 # -------------------------------
 # RUN
 # -------------------------------
