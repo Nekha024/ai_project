@@ -1,0 +1,13 @@
+{
+    "question_id": "Q3",
+    "intent": "experience_info",
+    "skills": [
+        "python",
+        "django"
+    ],
+    "experience_years": 3,
+    "salary_expectation": "8 LPA",
+    "availability": "Immediate",
+    "off_topic": false,
+    "vague_answer": false
+}
