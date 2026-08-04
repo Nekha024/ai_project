@@ -1,0 +1,21 @@
+{
+    "candidate_id": "C2001",
+
+    "technical_score": 81,
+
+    "strengths": [
+
+        "Good Python knowledge",
+
+        "Strong API concepts"
+
+    ],
+
+    "weaknesses": [
+
+        "Needs better system design knowledge"
+
+    ],
+
+    "decision": "Consider"
+}

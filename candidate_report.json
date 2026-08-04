@@ -1,0 +1,29 @@
+{
+    "candidate_id": "C12001",
+    "scores": {
+        "ats": 78,
+        "screening": 72,
+        "hr": 80,
+        "technical": 85,
+        "machine_test": 76
+    },
+    "behavior": {
+        "confidence": 82,
+        "risk_level": "Low Risk",
+        "integrity": "Moderate Risk"
+    },
+    "summary": {
+        "strengths": [
+            "Strong resume-job match",
+            "Good screening performance",
+            "Strong HR interview performance",
+            "Excellent technical skills",
+            "Good practical coding ability"
+        ],
+        "weaknesses": [],
+        "risks": [
+            "Integrity risk detected"
+        ]
+    },
+    "final_recommendation": "Selected"
+}
