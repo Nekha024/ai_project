@@ -64,7 +64,10 @@ def main():
 
     text = extract_resume_text(file_path)
 
-    print("Extracted Text Preview:\n")
+    print("\n" + "="*50)
+    print("STEP 1: EXTRACTING TEXT FROM RESUME")
+    print("="*50)
+    print("\nExtracted Text Preview:\n")
 
     print(text[:300])
 
@@ -79,7 +82,10 @@ def main():
     with open(output_path, "w") as f:
         json.dump(sections, f, indent=4)
 
-    print("\nStructured Sections saved at:", output_path)
+    print("\n" + "="*50)
+    print("STEP 2: STRUCTURING RESUME DATA")
+    print("="*50)
+    print(f"\nStructured Sections saved at: {output_path}")
 
     print(json.dumps(sections, indent=2)[:500])
 
@@ -96,7 +102,10 @@ def main():
         job
     )
 
-    print(f"\nFinal Candidate Score: {score}%")
+    print("\n" + "="*50)
+    print("STEP 3: CALCULATING KEYWORD ATS SCORE")
+    print("="*50)
+    print(f"\nFinal Keyword Score: {score}%")
 
     # 🔹 Step 4: Semantic Matching
 
@@ -105,6 +114,9 @@ def main():
         job
     )
 
+    print("\n" + "="*50)
+    print("STEP 4: AI SEMANTIC MATCHING")
+    print("="*50)
     print("\nSemantic Matching Result:\n")
 
     print(
@@ -143,6 +155,9 @@ def main():
         job
     )
 
+    print("\n" + "="*50)
+    print("STEP 5: GENERATING FINAL ATS SCORE")
+    print("="*50)
     print("\nATS SCORE RESULT:\n")
 
     print(
@@ -181,6 +196,9 @@ def main():
         candidates
     )
 
+    print("\n" + "="*50)
+    print("STEP 6: RANKING PIPELINE")
+    print("="*50)
     print("\nRANKING RESULT:\n")
 
     print(
@@ -235,7 +253,10 @@ def main():
 
         generate_fair_score(c)
 
-    print("\nFAIRNESS RESULT:\n")
+    print("\n" + "="*50)
+    print("STEP 7: FAIRNESS & BIAS MITIGATION")
+    print("="*50)
+    print("\nFAIRNESS RESULT (PII MASKED):\n")
 
     print(
         json.dumps(
@@ -246,6 +267,9 @@ def main():
 
     # 🔹 Step 9: Eligibility Decision Engine
 
+    print("\n" + "="*50)
+    print("STEP 8: ELIGIBILITY ENGINE DECISION")
+    print("="*50)
     print("\nELIGIBILITY RESULT:\n")
 
     candidate_for_screening = {
